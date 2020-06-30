@@ -2,12 +2,13 @@ body
 {
    padding: 0;
    margin: 0;
+   /*background: url('./sunrise.jpg') fixed;*/
+	background: url('./computer.jpg') fixed;
 }
 
 .strona
 {
-	/*background: url('./sunrise.jpg') fixed;*/
-	background: url('./computer.jpg') fixed;
+	
 }
 
 .menu
