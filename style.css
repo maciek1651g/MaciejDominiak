@@ -39,6 +39,16 @@ body
 	background:#1a1919;
 }
 
+.option:active
+{
+	background:#3c3b3b;
+}
+
+#choosen
+{
+	background-color:#4e4c4d;
+}
+
 .content
 {
 	display: flex;
@@ -53,11 +63,6 @@ body
 	padding-left:50px;
 	padding-right:50px;
 	font-size:30px;
-}
-
-#choosen
-{
-	background-color:#4e4c4d;
 }
 
 .stopka
