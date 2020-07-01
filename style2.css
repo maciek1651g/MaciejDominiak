@@ -29,21 +29,30 @@ body
 
 .option
 {
+	width: 200px;
 	height:80px;
-	width:100%;
+	background-color:#2b2a2a;
+	border-right: 1px solid black;
+	color:gray;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	font-size:30px;
 }
 
-.imieNazwisko
+.option:hover
 {
-	text-align:center;
-	color:white;
-	font-size:50px;
-	font-weight:bold;
-	padding:0px;
-	margin:0px;
+	background:#1a1919;
+}
+
+.option:active
+{
+	background:#3c3b3b;
+}
+
+#choosen
+{
+	background-color:#4e4c4d;
 }
 
 .content

@@ -8,16 +8,79 @@
 	</head>
 	<body>
 		<div class="strona">
-			<div class="content">
-			</div>
-			<div class="menu">
-				<div id="choosen" class="option">O mnie...</div>
-				<div class="option" onclick="document.location='projekty.html'">Projekty</div>
-				<div class="option" onclick="document.location='kontakt.html'">Kontakt</div>
-			</div>
-			<div class="stopka">
+			<main class="content">
+				<section>
+					<h2>O mnie...</h2>
+					<article>
+						<p>
+							Jestem studentem Szkoły Głównej Gospodarstwa Wiejskiego w Warszawie na kierunku Informatyka.
+							Moją pasją jest programowanie. W przyszłości zamierzam rozwijać swoją wiedzę w tej dziedzinie
+							tworząc coraz bardziej skomplikowane projekty. Stworzyłem tą stronę by każdy mógł zobaczyć 
+							najciekawsze projekty, w których uczestniczyłem, bądź w całości wykonałem sam.
+						</p>
+					</article>
+				</section>
+				<section>
+					<h2>Projekty</h2>
+					<article>
+						<h3>Aplikacja mobilna</h3>
+						<p>Link do projektu: 
+							<a href="https://github.com/maciek1651g/inwentaryzacja">https://github.com/maciek1651g/inwentaryzacja</a>
+						</p>
+						<p>
+							Projekt wykonany grupowo, w 16 osób, na zajęcia z Inżynierii Oprogramowania. Aplikacja służy do inwentaryzacji
+							środków trwałych i potrafi, za pomocą kamery, odczytywać kody QR umieszczone na inwentaryzowanych przedmiotach
+							oraz wyszukiwać o nich informację w bazie danych. Aplikacja została napisana na platformie Xamarin. 
+							W tym projekcie przypadło mi napisanie widoku "skanowania", na którym został umieszczony podgląd z kamerki oraz
+							znalazłem i podpiąłem odpowiednią bibliotekę do skanowania kodów QR. 
+							Napisałęm również część kodu odpowiedzialną za komunikację z API, w celu wysyłania i pobierania 
+							informacji do/z bazy danych.
+						</p>
+					</article>
+					<article>
+						<h3>Algorytm Edmondsa-Karpa</h3>
+						<p>Link do projektu: 
+							<a href="https://github.com/maciek1651g/grafy_i_sieci">https://github.com/maciek1651g/grafy_i_sieci</a>
+						</p>
+						<p>
+							Projekt wykonany grupowo, w 3 osoby, na zajęcia z Grafów i Sieci. Program służy do znajdowania maksymalnej
+							liczby przypisań pracownik-maszyna w celu zmaksymalizowania liczby pracujących maszyn. Program został 
+							oparty na algorytmie Edmondsa-Karpa.
+						</p>
+					</article>
+					<article>
+						<h3>Prosta gra w wisielca</h3>
+						<p>Link do projektu: 
+							<a href="https://github.com/maciek1651g/wisielec">https://github.com/maciek1651g/wisielec</a>
+						</p>
+						<p>Link do gry: 
+							<a href="http://dominiakmaciej-wisielec.epizy.com/">http://dominiakmaciej-wisielec.epizy.com/</a>
+						</p>
+						<p>
+							Projekt wykonany na zajęcia z Portali internetowych w technologii PHP.  
+						</p>
+					</article>
+				</section>
+				<section>
+					<h2>Kontakt</h2>
+					<article>
+						<p>
+							Email: maciek1651g@gmail.com
+						</p>
+					</article>
+				</section>
+			</main>
+			<nav class="menu">
+				<div class="option">
+					<div style="flex-grow: 5;"></div>
+					<div class="imieNazwisko" style="flex-grow: 8;">MD</div>
+					<div class="imieNazwisko" style="flex-grow: 8;">Maciej Dominiak</div>
+					<div style="flex-grow: 5;"></div>
+				</div>
+			</nav>
+			<footer class="stopka">
 				<p>&copy 2020 Maciej Dominiak. All rights reserved</p>
-			</div>
+			</footer>
 		</div>
 	</body>
 </html>
